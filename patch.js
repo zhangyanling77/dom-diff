@@ -5,7 +5,6 @@ import {
 } from "./element";
 
 /**
-import patch from './patch';
  * patch
  * @param {*} node 
  * @param {*} patches 
