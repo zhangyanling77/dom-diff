@@ -26,7 +26,7 @@ let vertualDom2 = createElement('ul', { class: 'list' }, [
 // 现在存在的问题：
 // 如果平级元素互换会重新渲染
 // 新增节点也不会被更新
-// 可以通过index来实现换位置和移动 ====》 这部分视频没讲
+// 可以通过index来实现换位置和移动
 
 let el = render(vertualDom1)
 // 将虚拟DOM转化成真实DOM，并渲染到页面上
